@@ -1,5 +1,9 @@
 /* C/C++ program to solve N Queen Problem using
 backtracking */
+
+/* Credit/URL Reference: 
+   https://www.geeksforgeeks.org/n-queen-problem-backtracking-3/ 
+*/
 #define N 8
 #define X (N * N)
 #include <stdbool.h>
@@ -10,10 +14,12 @@ backtracking */
 (N-1) is for shifting the difference to store negative
 indices */
 int ld[X] = { 0 };
+
 /* rd is an array where its indices indicate row+col
 and used to check whether a queen can be placed on
 right diagonal or not*/
 int rd[X] = { 0 };
+
 /*column array where its indices indicates column and
 used to check whether a queen can be placed in that
 row or not*/
