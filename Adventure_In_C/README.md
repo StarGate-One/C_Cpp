@@ -5,4 +5,4 @@ A great deal of thanks from [Ruud Helderman's project](https://helderman.github.
 inspiration for this project.
 
 #### License
-The code found in this repository is licensed under the [MIT License](LICENSE.txt).
+The code found in this repository is licensed under the [MIT License](LICENSE.md).
