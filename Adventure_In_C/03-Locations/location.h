@@ -3,7 +3,7 @@
  * Filename:	location.h
  * Author:		StarGate - One
  * Project:		How to program a text adventure in C
- * Lesson:		Location
+ * Lesson:		03-Locations
 */
 #ifndef _LOCATION_H_
 #define _LOCATION_H_

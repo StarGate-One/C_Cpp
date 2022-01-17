@@ -1,9 +1,9 @@
 /*
- * Created:		2022-01-15
+ * Created:		2022-01-16
  * Filename:	parsexec.c
  * Author:		StarGate-One
  * Project:		How to program a text adventure in C
- * Lesson:		Location
+ * Lesson:		04-Objects
  */
 
 #include "defines.h"
@@ -25,11 +25,11 @@ bool parseAndExecute(char* input)
 		}
 		else if (strcmp(verb, "look") == 0)
 		{
-			printf("Hmm... It is very much dark in here.\n");
+			executeLook(noun);
 		}
 		else if (strcmp(verb, "go") == 0)
 		{
-			printf("Err... It is too dark to go anywhere.\n");
+			executeGo(noun);
 		}
 		else
 		{

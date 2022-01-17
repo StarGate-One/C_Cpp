@@ -3,7 +3,7 @@
  * Filename:	parsexec.h
  * Author:		StarGate-One
  * Project:		How to program a text adventure in C
- * Lesson:		Location
+ * Lesson:		03-Locations
  */
 #ifndef _PARSEXEC_H_
 #define _PARSEXEC_H_

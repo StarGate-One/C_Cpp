@@ -3,13 +3,14 @@
  * Filename:	parsexec.c
  * Author:		StarGate-One
  * Project:		How to program a text adventure in C
- * Lesson:		02-The Main Loop
+ * Lesson:		03-Locations
  */
 
 #include "defines.h"
 #include <stdbool.h>
 #include <stdio.h>
 #include <string.h>
+#include "location.h"
 
 bool parseAndExecute(char* input)
 {
@@ -24,11 +25,11 @@ bool parseAndExecute(char* input)
 		}
 		else if (strcmp(verb, "look") == 0)
 		{
-			printf("Hmm... It is very much dark in here.\n");
+			executeLook(noun);
 		}
 		else if (strcmp(verb, "go") == 0)
 		{
-			printf("Err... It is too dark to go anywhere.\n");
+			executeGo(noun);
 		}
 		else
 		{

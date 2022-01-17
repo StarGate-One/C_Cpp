@@ -3,7 +3,7 @@
  * Filename:	location.c
  * Author:		StarGate-One
  * Project:		How to program a text adventure in C
- * Lesson:		Location
+ * Lesson:		03-Locations
  */
 
 #include <stdio.h>
@@ -13,13 +13,17 @@ struct location
 {
 	const char* description;
 	const char* tag;
-};
+}
 
 locs[] =
 {
 	{"an open field", "field"},
-	{"a little cave", "cave"}
+	{"a little cave", "cave"},
+	{"a large castle", "castle"},
+	{"a deep canyon", "canyon"},
+	{"a high mountain", "mountain"}
 };
+
 #define numberOfLocations (sizeof locs / sizeof *locs)
 
 static unsigned locationOfPlayer = 0;
@@ -28,7 +32,7 @@ void executeLook(const char* noun)
 {
 	if (noun != NULL && strcmp(noun, "around") == 0)
 	{
-		printf("You are in %s.\n", locs[locationOfPlayer.description]);
+		printf("You are in %s.\n", locs[locationOfPlayer].description);
 	}
 	else
 	{

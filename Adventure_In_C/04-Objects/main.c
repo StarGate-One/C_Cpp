@@ -1,9 +1,9 @@
 /*
- * Created:		2022-01-15
+ * Created:		2022-01-16
  * Filename:	main.c
  * Author:		StarGate-One
  * Project:		How to program a text adventure in C
- * Lesson:		Location
+ * Lesson:		04-Objects
  */
 #include <stdbool.h>
 #include <stdio.h>

@@ -1,9 +1,9 @@
 /*
- * Created:		2022-01-15
+ * Created:		2022-01-16
  * Filename:	defines.h
  * Author:		StarGate-One
  * Project:		How to program a text adventure in C
- * Lesson:		The Main Loop
+ * Lesson:		04-Objects
  */
 #ifndef _DEFINES_H_
 #define _DEFINES_H_

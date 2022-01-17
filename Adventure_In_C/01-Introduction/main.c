@@ -3,7 +3,7 @@
  * Filename:	main.c
  * Author:		StarGate-One
  * Project:		How to program a text adventure in C
- * Lesson:		Introduction
+ * Lesson:		01-Introduction
  */
 #include <stdio.h>
 
