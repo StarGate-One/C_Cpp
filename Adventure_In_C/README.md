@@ -6,3 +6,5 @@ inspiration for this project.
 
 #### License
 The code found in this repository is licensed under the [MIT License](LICENSE.md).
+
+###### Note: This project was coded with MS Visual Studio 2022 Using C x64 for windows.
