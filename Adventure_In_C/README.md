@@ -7,4 +7,4 @@ inspiration for this project.
 #### License
 The code found in this repository is licensed under the [MIT License](LICENSE.md).
 
-###### Note: This project was coded with MS Visual Studio 2022 Using C x64 for windows.
+###### Note: This project provides solutions for MS Visual Studio 2019 and MS Visual Studio 2022 Using C x64 for windows.
