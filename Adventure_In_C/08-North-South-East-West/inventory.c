@@ -1,9 +1,9 @@
 /*
- * Created:		2022-01-19
+ * Created:		2022-01-22
  * Filename:	inventory.c
  * Author:		StarGate-One
  * Project:		How to program a text adventure in C
- * Lesson:		07-Distance
+ * Lesson:		08-North-South-East-West
  */
 
 #include <stdbool.h>
